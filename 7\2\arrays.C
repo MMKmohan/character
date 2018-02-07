@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main()
+void main()
 {
 int a[20],i,j,n,temp;
 printf("Enter the size of an array:");
@@ -25,5 +25,4 @@ for(i=0;i<n;i++)
 {
 printf("%d",a[i]);
 }
-return 0;
 }
