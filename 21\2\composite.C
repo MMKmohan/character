@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <conio.h>
 void main()
 {
 int n,count=0,i;
@@ -13,10 +14,10 @@ count++;
 }
 if(count==0)
 {
-printf("No");
+printf("No,it is not a composite number");
 }
 else
 {
-printf("Yes");
+printf("Yes,it is a composite number");
 }
 }
